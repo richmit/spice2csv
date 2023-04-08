@@ -5,5 +5,6 @@
 I frequently use tools like Paraview, Octave/Matlab, R, and Maple to analyze Spice simulation results.  While some of these tools can directly import Spice
 RAW files, most can't or require extra components to do so.  My solution is to just transform everything into CSV.
 
- - =spiceRaw2CSV.rb=     :: RAW spice files
- - =spiceExportToCSV.rb= :: Spice exported files -- ngspice's =wrdata=, LTSpice's menu [file]->[Export data as text]
+ - =spiceRaw2CSV.rb=     :: Convert RAW spice files to CSV.
+ - =spiceExportToCSV.rb= :: Convert Spice exported files to CSV.  \\
+                            By "exported" I mean files generated via ngspice's =wrdata= or LTSpice's menu [file]->[Export data as text]
